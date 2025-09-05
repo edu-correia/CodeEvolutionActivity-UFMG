@@ -81,9 +81,13 @@ Seja criativo!
 
 Responda às questões abaixo diretamente neste arquivo `README.md` do seu fork:
 
-1. Repositório selecionado: <URL_DO_REPOSITORIO_SELECIONADO_AQUI>
-2. Gráfico selecionado: <IMAGEM_DO_GRAFICO_SELECIONADO_AQUI>
-3. Explicação: <EXPLICACAO_AQUI>
+1. Repositório selecionado: [React Hook Form (Typescript)](https://github.com/react-hook-form/react-hook-form)
+2. Gráfico selecionado: ![Grafico de "Classes, interfaces and types aliases"](./grafico.png)
+3. Explicação: 
+- Evolução ao longo do tempo: Ao analisar o gráfico, fica claro que a partir de 2021 houve uma decisão interna em que "aposentou" o uso de "interfaces" e "classes" e adotou de vez o uso de "type" para a tipagem tanto do código da ferramenta quanto para exemplos e projetos usando o React Hook Form.
+- Curvas estão de acordo com as boas práticas: A curva está de acordo com boas práticas para manter o código mais "previsível" e é um movimento que vem sendo seguido por outras ferramentas gigantes da comunidade TypeScript.
+- Explicação por essa grande alteração: Nos últimos anos, grandes projetos TypeScript têm substituído class e interface pelo uso de type. Essa mudança acompanha a forte adoção da programação funcional, impulsionada por tecnologias como React Hooks. O type é preferido por ser mais flexível que interface (permitindo uniões e tipos complexos) e por não gerar código extra como as classes, otimizando a performance. Além disso, por ser "fechado" e não permitir modificações posteriores, ele torna a base de código mais previsível e segura para equipes grandes.
+- Explorar documentação em busca de aplicações: Embora não achei nada na documentação da ferramenta que explicasse essa mudança, fica claro no site da ferramenta que esse é o padrão a ser seguido, tanto que todos os exemplos de código presentes no site são feitos usando o "type".
 
 
 
